@@ -1,0 +1,30 @@
+{
+  "name": "manifest",
+  "version": "0.1.0",
+  "bin": {
+    "manifest": "bin/manifest.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "test": "mocha -r ts-node/register test/unit/"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "8.10.40",
+    "@types/readline-sync": "^1.4.3",
+    "assert": "^1.4.1",
+    "aws-cdk": "^0.27.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "test": "^0.6.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@aws-cdk/cdk": "^0.27.0",
+    "source-map-support": "^0.5.9"
+  }
+}
